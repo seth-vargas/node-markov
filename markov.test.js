@@ -41,4 +41,6 @@ describe("Markov Machine", () => {
 
         expect(words.length).toBeLessThanOrEqual(50)
     })
+
+    // test that not passing in numWords defaults to 100
 })
